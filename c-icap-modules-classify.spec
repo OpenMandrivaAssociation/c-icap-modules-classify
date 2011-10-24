@@ -22,7 +22,7 @@ supplied by the user to recognize various image characteristics
 
 %package -n	%{name}-training
 Summary:	Programs to train FHS (Fast HyperSpace) or FNB (Fast Naive Bayes) files
-Group:		Admin Tools
+Group:		System/Servers
 Provides:       %{name}-training fhs_learn fhs_judge fhs_makepreload fnb_learn fnb_judge fnb_makepreload
 Requires:	c_icap_classify
 

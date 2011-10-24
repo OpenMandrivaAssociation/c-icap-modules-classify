@@ -2,7 +2,7 @@
 Name:           c-icap-modules-classify
 Version:        20111022
 Release:        %mkrel 1
-Summary:        Classification module for c-icap.
+Summary:        Classification module for c-icap
 
 Group:          System/Servers
 License:        LGPLv3+
@@ -18,7 +18,7 @@ Requires:       c-icap-server
 %description
 This module can be setup to classify text & HTML pages as well as images. These
 classifications are according to FastHyperSpace files or Intel OpenCV files
-supplied by the user to recognize various image characteristics.
+supplied by the user to recognize various image characteristics
 
 %package -n	%{name}-training
 Summary:	Programs to train FHS (Fast HyperSpace) or FNB (Fast Naive Bayes) files
@@ -27,7 +27,7 @@ Provides:       %{name}-training fhs_learn fhs_judge fhs_makepreload fnb_learn f
 Requires:	c_icap_classify
 
 %description -n %{name}-training
-Programs to train FHS (Fast HyperSpace) or FNB (Fast Naive Bayes) files for use by c_icap_classify.
+Programs to train FHS (Fast HyperSpace) or FNB (Fast Naive Bayes) files for use by c_icap_classify
 
 %prep
 %setup -q -n treveradams-C-ICAP-Classify-%{git}

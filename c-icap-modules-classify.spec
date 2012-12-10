@@ -71,3 +71,11 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/fnb_makepreload
 
 
+
+
+%changelog
+* Tue Oct 25 2011 Luis Daniel Lucio Quiroz <dlucio@mandriva.org> 20111022-1
++ Revision: 706506
+- SPEC fixes
+- import c-icap-modules-classify
+

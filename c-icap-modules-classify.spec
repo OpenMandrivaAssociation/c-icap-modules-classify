@@ -6,7 +6,7 @@ Summary:        Classification module for c-icap
 
 Group:          System/Servers
 License:        LGPLv3+
-URL:            http://c-icap.sourceforge.net/
+URL:            https://c-icap.sourceforge.net/
 Source0:        treveradams-C-ICAP-Classify-%{version}-0-g%{git}.tar.gz
 BuildRequires:  c-icap-devel 
 BuildRequires:	opencv-devel

@@ -8,6 +8,11 @@ Group:          System/Servers
 License:        LGPLv3+
 URL:            https://c-icap.sourceforge.net/
 Source0:        treveradams-C-ICAP-Classify-%{version}-0-g%{git}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  c-icap-devel 
 BuildRequires:	opencv-devel
 BuildRequires:  tre-devel

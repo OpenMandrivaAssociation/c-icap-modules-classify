@@ -1,7 +1,7 @@
 %define		git 4362fda
 Name:           c-icap-modules-classify
 Version:        20111022
-Release:        %mkrel 1
+Release:        2
 Summary:        Classification module for c-icap
 
 Group:          System/Servers
